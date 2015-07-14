@@ -2,7 +2,7 @@
 console.log('It\'s alive! ALIVE!');
 
 /* jshint ignore:start */
-$(document).on('reedy', function(){
+$(document).on('ready', function(){
 	// Carousel
 	$('.b2b-carousel').slick({
 		prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="previous"></button>',
