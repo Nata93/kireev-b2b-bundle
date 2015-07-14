@@ -1,7 +1,8 @@
-/* jshint devel:true */
+/* jshint devel:true*/
 console.log('It\'s alive! ALIVE!');
 
-$(document).ready(function(){
+/* jshint ignore:start */
+$(document).on('reedy', function(){
 	// Carousel
 	$('.b2b-carousel').slick({
 		prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="previous"></button>',
@@ -20,3 +21,4 @@ $(document).ready(function(){
 
 //WOW
 new WOW().init();
+/* jshint ignore:end */
