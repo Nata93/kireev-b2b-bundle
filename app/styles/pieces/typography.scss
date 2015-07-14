@@ -1,0 +1,59 @@
+
+// Sizes
+.big-x1-5
+{
+	font-size: 1.5em;
+	line-height: 1.4;
+}
+
+.big-x2
+{
+	font-size: 2em;
+	line-height: 1.4;
+}
+
+.big-x3
+{
+	font-size: 3em;
+	line-height: 1.4;
+}
+
+.big-price
+{
+	font-size: 28px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.big-green
+{
+	font-weight: 500;
+	text-align: center;
+	font-size: 18px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+
+// Colors
+.white-color,
+p.white-color,
+{
+	color: $white;
+}
+
+
+.orange-color,
+p.orange-color
+{
+	color: $orange;
+}
+
+.green-color,
+p.green-color
+{
+	color: $green;
+}

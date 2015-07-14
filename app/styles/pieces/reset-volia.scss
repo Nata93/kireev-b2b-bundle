@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, 
+body,
+#article,
+#article .wrap.wide,
+#content
+{
+	min-height: 100%;
+	width: 100%;
+}
+
+#copiny-widget-tab,
+#club-button,
+#header, 
+#content .nav, 
+#content .aside.left, 
+#footer,
+.clearfix.separator
+{
+	display: none;
+}
+
+#content {
+	margin: 0 auto;
+}
+
+
+#article .wrap.wide
+{
+	margin: 0 auto;
+	float: none;
+
+	position: relative;
+	z-index:10;
+}
+
+.clearfix
+{
+	height: auto;
+}
+
+
+
+/**/
+
+#article
+{
+	line-height: 1.42857143;
+	margin: 0 auto;
+	float: none;
+}
+
+#article p {
+    margin: 5px 0 10px
+}
+
+#article .lead 
+{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4
+}
+
+#article .features 
+{
+	height: auto;
+	position: relative;
+	margin-top:0px;
+}
+
+#article .h1 .small,
+.h1 small,
+.h2 .small,
+.h2 small,
+.h3 .small,
+.h3 small,
+.h4 .small,
+.h4 small,
+.h5 .small,
+.h5 small,
+.h6 .small,
+.h6 small,
+h1 .small,
+h1 small,
+h2 .small,
+h2 small,
+h3 .small,
+h3 small,
+h4 .small,
+h4 small,
+h5 .small,
+h5 small,
+h6 .small,
+h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777
+}
+
+
+#article h3 
+{
+	font-size: 24px;
+}
+
+@media (min-width: 768px) {
+    #article .lead {
+        font-size:21px
+    }
+}
+
+#article button{
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+
+#article button:hover{
+	background: none;
+}

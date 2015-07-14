@@ -1,0 +1,10 @@
+{
+  "name": "b2b-landing-bundle",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1",
+    "wow": "~1.1.2",
+    "animateCSS": "~1.2.1",
+    "slick-carousel": "~1.5.6"
+  }
+}

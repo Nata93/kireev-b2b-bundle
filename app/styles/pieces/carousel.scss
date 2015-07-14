@@ -1,0 +1,31 @@
+$carousel-button-size: 45px;
+
+.slick-prev,
+.slick-next
+{
+	width: $carousel-button-size;
+	height: $carousel-button-size;
+
+	text-shadow: 0 1px 1px #fff;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+	font-size: $carousel-button-size;
+	line-height: 1;
+
+	color: $green;
+}
+
+.b2b-carousel .slide
+{
+	min-height: 400px;
+	background-size: cover;
+	padding: 50px 0 0;
+}
+
+.b2b-carousel .slide>p
+{
+	padding: 20px 100px 0;
+}

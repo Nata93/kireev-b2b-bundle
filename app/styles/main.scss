@@ -1,0 +1,15 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "pieces/colors.scss";
+@import "pieces/typography.scss";
+@import "pieces/margin-padding.scss";
+
+@import "pieces/global.scss";
+@import "pieces/blocks.scss";
+@import "pieces/carousel.scss";
+
+@import "pieces/reset-volia.scss";
